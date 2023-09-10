@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 }
    updateDate = () =>{
      date = new Date()
-     let time = date.getUTCMilliseconds()
+     let time = date.getTime()
     document.querySelector('[data-testid="currentUTCTime"]').textContent = `${time}`
 }
 updateDaysOfTheWeek()
