@@ -17,7 +17,7 @@ body {
   text-align: center;
   background-color: rgba(243, 157, 131, 0.5);
   box-shadow: 8px 8px 1px rgb(207, 160, 138);
-  width: 380px;
+  max-width: 370px;
   height: max-content; 
   border-radius: 78px;
 }
