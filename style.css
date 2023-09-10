@@ -1,0 +1,87 @@
+/* Reset default margin and padding */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, orangered 10%, rgb(156, 84, 42) 75%, rgb(214, 131, 7) 90%);
+  font-family: sans-serif;
+  color: #fff;
+}
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.personal_data_container {
+  margin: auto;
+  padding: 2rem; 
+  text-align: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+
+[data-testid="slackUserName"] {
+  font-size: 3rem;
+  margin-bottom: 16px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+
+[data-testid="slackDisplayImage"] {
+  width: 300px;
+  height: 350px;
+  border-radius: 20px;
+  border: 6px solid #cc4f1e;
+  background-size: cover;
+  transition: transform 0.3s ease-in-out; 
+}
+
+[data-testid="slackDisplayImage"]:hover {
+  transform: scale(1.05); 
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+
+[data-testid="currentDayOfTheWeek"],
+[data-testid="currentUTCTime"],
+[data-testid="myTrack"],
+[data-testid="gitHubURL"] {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+
+[data-testid="gitHubURL"] {
+  color: #fff;
+  transition: color 0.3s ease; 
+}
+
+[data-testid="gitHubURL"]:hover {
+  color: #ff4500; 
+}
+
+
+[data-testid="contactInfo"],
+[data-testid="phoneNumber"],
+[data-testid="skills"],
+[data-testid="education"],
+[data-testid="graduationDate"] {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 10px;
+}
+
+[data-testid="skills"],
+[data-testid="education"] {
+  font-style: italic; 
+}
