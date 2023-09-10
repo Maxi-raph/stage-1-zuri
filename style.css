@@ -63,11 +63,11 @@ body {
 }
 
 
-[data-testid="gitHubURL"] {
+[data-testid="githubURL"] {
   color: #fff;
   transition: color 0.3s ease; 
 }
 
-[data-testid="gitHubURL"]:hover {
+[data-testid="githubURL"]:hover {
   color: #ff4500; 
 }
